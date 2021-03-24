@@ -1,0 +1,11 @@
+spring:
+  profiles:
+      active: test
+spring:
+  profiles: test
+  application: 
+      name: testApplication
+spring:
+  profiles: default
+  application: 
+      name: defaultApplication
