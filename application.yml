@@ -1,11 +1,9 @@
-spring:
+spring:    
   profiles:
       active: test
-spring:
+spring:    
   profiles: test
-  application: 
-      name: testApplication
-spring:
+  application: testApplication
+spring:    
   profiles: default
-  application: 
-      name: defaultApplication
+  application: defaultApplication
