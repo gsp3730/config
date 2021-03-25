@@ -1,9 +1,13 @@
 spring:    
   profiles:
       active: test
+---
 spring:    
   profiles: test
-  application: testApplication
+  application: 
+  	name: testApplication
+---  
 spring:    
   profiles: default
-  application: defaultApplication
+  application: 
+  	name: defaultApplication
