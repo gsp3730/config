@@ -1,11 +1,6 @@
-spring: 
-  profiles: 
-      active: test
-spring: 
-  profiles: test
-  application:  
+spring:
+  application:
     name: testApplication
-spring: 
-  profiles: default
-  application: 
-   name: defaultApplication
+  profiles: test
+server:
+  port: 7002
