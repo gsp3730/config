@@ -5,8 +5,8 @@ spring:
 spring:    
   profiles: test
   application: 
-  	name: testApplication
+    name: testApplication
 spring:    
   profiles: default
   application: 
-  	name: defaultApplication
+   name: defaultApplication
